@@ -9,3 +9,4 @@ if ($req_query_name)
 }
 
 Out-File -Encoding Ascii -FilePath $res -inputObject "Hello $name"
+Write-Output "Daro was here"
